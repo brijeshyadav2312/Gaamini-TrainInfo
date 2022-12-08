@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Righteous&family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e9e9e9;
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    box-sizing: content-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    background-color: #153B70;
+    width: 70vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+.nav span:nth-child(2){
+    border: 2px solid;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav span:nth-child(2):hover{
+    background-color: #1d5096;
+}
+.logoSec{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav img{
+    width: 40px;
+    background-color: rgb(0, 174, 255);
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+.logoSec a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.nav div:first-child span{
+    font-size: 3rem;
+}
+.category{
+    display: flex;
+    justify-content: center;
+}
+.category a{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F9FB;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+}
+
+.Search{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchsec{
+    width: 100%;
+    background-color: #F5F9FB;
+    margin-top: 3rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.inputSec{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    height: 3.5rem;
+    border-radius: 10px;
+}
+.searchsec input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    outline: none;
+    border: 1px solid rgba(137, 231, 255, 0.786);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.searchsec button{
+    height: 100%;
+    width: 20vw;
+    background:transparent;
+    border: none;
+    background-color: #1d5096;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.aboutTrain{
+    width: 100%;
+    background-color: #F5F9FB;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.DetailsCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+.DetailsTime{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.DetailsTime span{
+    width: 300px;
+    background-color: #153B70;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.DetailsTime p:last-child{
+    font-size: 1rem;
+}
+.to{
+    width: 100px;
+    align-items: center;
+}
+.DetailsTime p:first-child{
+    font-size: 3rem;
+}
+.DetailsCard p{
+    font-size: 3rem;
+    color: #153B70;
+    font-weight: bold;
+}
+.DetailsCard p:last-child{
+    font-size: 2rem;
+    color:#006aff;
+   
+}
+.DetailsCard p:last-child span{
+    background-color: #006aff;
+    color: white;
+}
+.daysClass span{
+    border: 2px solid;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.aboutTrainCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    background-color: #F5F9FB;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.name{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #153B70;
+}
+.notFound{
+    padding: 2rem 0;
+    color: red;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.pnrStatus{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70vw;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #F5F9FB;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.pnrStatus >div:first-child{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.pnrStatus >div:first-child span:first-child span{
+    color: #1eae22;
+}
+.pnrStatus >div:first-child span:nth-child(2) span{
+    color: #00a0b2;
+}
+.pnrStatus >div:nth-child(2) span>span{
+    color: #00a0b2;
+}
+.pnrStatus >div:nth-child(3) span{
+    color: #00a0b2;
+}
+.dataCart{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.dataCart div{
+    width: 100%;
+    background-color: #153B70;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.quotaClass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentData:nth-child(2n+1){
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 0.5rem;
+    background-color: #f0f271;
+    color: #2d2d2d;
+}
+.currentData:nth-child(2n){
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 0.5rem;
+    background-color: #67d3e7;
+    color: #2d2d2d;
+}
+.currentData:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.currentData:first-child{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.currentData span:nth-child(2){
+    color: #232323;
+}
+
+.currentData span:nth-child(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.currentData div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+}
+.footerArea{
+    width: 70vw;
+    background-color: #153B70;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: #153B70;
+}
+.notFound img {
+    width: 500px;
+}
+@media only screen and (max-width: 480px){
+    .nav{
+        width: 100vw;
+        justify-content: space-around;
+        padding: 1rem 0;
+    }
+    .DetailsCard{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        padding: 0 1rem;
+    }
+    .DetailsTime{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .name{
+        font-size: 2.3rem;
+    }
+    .cart{
+        padding: 2rem 0;
+        margin-top: 2rem;
+    }
+    .daysClass span{
+        padding: 0.3rem;
+    }
+    .to{
+        width: 50px;
+        padding: 0.5rem 0;
+    }
+    .aboutTrainCard{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .DetailsCard p{
+        font-size: 1rem;
+    }
+    .searchsec{
+        padding: 2rem 2.5rem;
+    }
+    .inputSec{
+        width: auto;
+        height: 45px;
+        border: 1px solid #676767;
+        border-radius: 5px;
+    }
+    .inputSec button{
+        padding: 0 1rem;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 1rem;
+    }
+    .inputSec>input{
+        border: none;
+        font-size: 1.2rem;
+    }
+    .notFound img{
+        width: 300px;
+    }
+}
