@@ -10,7 +10,7 @@ const options = {
   method: 'GET',
   url: `https://pnr-status-indian-railway.p.rapidapi.com/pnr-check/${querry}`,
   headers: {
-    'X-RapidAPI-Key': '193054a8e1msh54b91652feb3e3ap1e1bf8jsnad84dc5f1426',
+    'X-RapidAPI-Key': '193054a8e1msh54b91652feb3e3ap1e1bf8jsnfcs4kc5f1426',
     'X-RapidAPI-Host': 'pnr-status-indian-railway.p.rapidapi.com'
   }
 };
