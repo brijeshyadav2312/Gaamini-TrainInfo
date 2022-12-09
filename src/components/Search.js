@@ -14,7 +14,7 @@ const Search = () =>{
     url: 'https://trains.p.rapidapi.com/',
     headers: {
         'content-type': 'application/json',
-        'X-RapidAPI-Key': '193054a8e1msh54b91652feb3e3ap1e1bf8jsnad84dc5f1426',
+        'X-RapidAPI-Key': '193054a8e1msh54b91652feb3e3ap1e1bf8jdenk352dc5f1426',
         'X-RapidAPI-Host': 'trains.p.rapidapi.com'
     },
     data: {"search" : `${value}`}
